@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "de.pizzapost.damage_equals_item.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"CraftingScreenHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

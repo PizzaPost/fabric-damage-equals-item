@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "damage_equals_item",
+	"version": "${version}",
+	"name": "damage_equals_item",
+	"description": "Taking damage gives you a random item. You can change with commands if items should be able to drop from blocks.",
+	"authors": [
+		"PizzaPost"
+	],
+	"contact": {
+		"homepage": "https://pizzapost.com/",
+		"sources": "https://github.com/PizzaPost/fabric-damage-equals-item"
+	},
+	"license": "MIT",
+	"icon": "assets/damage_equals_item/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.pizzapost.Damage_equals_item"
+		],
+		"fabric-datagen": [
+			"de.pizzapost.Damage_equals_itemDataGenerator"
+		],
+		"client": [
+			"de.pizzapost.Damage_equals_item_Client"
+		]
+	},
+	"mixins": [
+		"damage_equals_item.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

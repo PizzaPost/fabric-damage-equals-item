@@ -1,0 +1,4 @@
+{
+  "damage_equals_item.crafting_disabled": "Handwerk ist deaktiviert.",
+  "damage_equals_item.welcome_message": "Verwende /gamerule allowCrafting <true/false>, um das Herstellen zu deaktivieren/aktivieren. (Standard: true)\nVerwende /gamerule dropItemsOnBlockBreak <true/false>, um Item-Drops beim Blockabbau zu deaktivieren/aktivieren. (Standard: true)"
+}

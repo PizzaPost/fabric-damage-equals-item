@@ -1,0 +1,4 @@
+{
+  "damage_equals_item.crafting_disabled": "Crafting is disabled.",
+  "damage_equals_item.welcome_message": "Use /gamerule allowCrafting <true/false> to disable/enable crafting. (default: true)\nUse /gamerule dropItemsOnBlockBreak <true/false> to disable/enable item drops on block break. (default: true)"
+}
